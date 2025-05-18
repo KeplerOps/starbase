@@ -34,3 +34,6 @@
 2. Keep commits focused on a single change.
 3. Include relevant test updates with feature changes.
 4. Reference issues where applicable.
+
+See Agents.md for more detail
+See cline_docs/ and docs/ for detailed information
