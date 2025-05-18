@@ -102,38 +102,37 @@ As the project is in the planning phase, no components have been implemented yet
 
 ### Immediate Priorities
 
-1. **Detailed Component Design**
-   - Finalize the meta-model structure
-   - Define component interfaces
-   - Create detailed data flow diagrams
+1. **Log Emitter**
+   - Create a simple log generator in a Docker container
+   - Support OpenTelemetry log format
+   - Add basic configuration options
+   - Enable sending logs to the router
 
-2. **Proof of Concept**
-   - Implement a minimal version of the query translation engine
-   - Test with a small set of log formats
-   - Validate performance assumptions
-
-3. **Development Environment Setup**
-   - Set up local development environment
-   - Create initial project structure
-   - Establish CI/CD pipeline
+2. **Log Router**
+   - Build a high-performance Rust-based router
+   - Implement HTTP endpoints for receiving logs
+   - Add S3 storage integration
+   - Use zero-copy processing for efficiency
 
 ### Future Implementation Goals
 
-1. **MVP Implementation**
-   - Basic ingestion pipeline
-   - Simple query engine
-   - Minimal UI
-   - Support for CloudWatch and OpenTelemetry (OTel) log formats
+1. **Meta-Model Development**
+   - Define the universal field model
+   - Create mappings for CloudWatch and OpenTelemetry formats
+   - Implement the mapping registry
+   - Test with sample logs
 
-2. **AI Component Prototype**
-   - Initial models for format detection
-   - Basic field extraction
-   - Simple semantic mapping
+2. **Query Engine**
+   - Implement query parser for meta-model
+   - Develop query translation for each format
+   - Build result normalization and unification
+   - Create query optimization mechanisms
 
 3. **Cloud Platform Integration**
    - Cloud provider log integration
-   - Object storage implementation
+   - Object storage optimization
    - Scalable processing architecture
+   - Multi-region support
 
 ### Advanced Capabilities
 

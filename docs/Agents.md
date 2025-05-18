@@ -8,15 +8,15 @@ This document provides guidelines for AI coding agents working on the Starbase p
 
 1. **NEVER INCLUDE TIMELINE ESTIMATES** - Do not include dates, weeks, months, or any time-based estimates in any documentation or planning.
 
-2. **Focus on Functionality** - Organize work by features and capabilities, not by time periods.
+2. **KISS (Keep It Simple, Stupid)** - Always prefer the simplest solution that works. Avoid unnecessary complexity.
 
-3. **Prioritize Performance** - Starbase is a high-performance system; code accordingly.
+3. **YAGNI (You Aren't Gonna Need It)** - Don't build features or add complexity until you actually need them.
 
-4. **Preserve Data Fidelity** - Never transform log data unnecessarily.
+4. **Focus on Getting Basic Things Working** - Start with minimal implementations that work, then iterate.
 
-5. **Think Distributed** - Design all components to work in a distributed environment.
+5. **Prioritize Performance** - Starbase is a high-performance system; code accordingly.
 
-6. **Write Modern, Clean Code** - Follow principles from "Clean Code" (Robert C. Martin) and "Beautiful Code" (Andy Oram & Greg Wilson) as guiding sources for development practices.
+6. **Write Clean, Readable Code** - Follow principles from "Clean Code" with an emphasis on simplicity and readability.
 
 ## Modern Code Standards
 

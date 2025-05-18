@@ -1,0 +1,36 @@
+# Starbase Cursor Rules
+
+## Core Development Principles
+
+1. KISS (Keep It Simple, Stupid) - Always prefer the simplest solution that works.
+2. YAGNI (You Aren't Gonna Need It) - Don't build features until you actually need them.
+3. Get basic things working first - Start with minimal implementations, then iterate.
+4. NEVER include timeline estimates in any documentation.
+
+## Code Style
+
+1. Prioritize readability over cleverness.
+2. Use modern idioms but avoid unnecessary complexity.
+3. Optimize for performance in the critical path only.
+4. Document public interfaces thoroughly.
+
+## Implementation Guidelines
+
+1. Focus on the log emitter and router components first.
+2. Use Docker for local development and testing.
+3. Implement the simplest version that works before adding features.
+4. Write tests for critical functionality.
+
+## Documentation Rules
+
+1. Keep documentation concise and to the point.
+2. Focus on what and how, not when.
+3. Document interfaces and configuration options.
+4. Use examples for clarity.
+
+## Commit Guidelines
+
+1. Write clear, descriptive commit messages.
+2. Keep commits focused on a single change.
+3. Include relevant test updates with feature changes.
+4. Reference issues where applicable.

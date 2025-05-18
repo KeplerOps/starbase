@@ -76,23 +76,17 @@ We are currently in the initial architecture and design phase of Starbase, focus
 
 ### Immediate Actions
 
-1. **Meta-Model Definition**
-   - Define the core fields and concepts
-   - Create initial mappings for CloudWatch and OpenTelemetry (OTel)
-   - Document the mapping approach
-   - Validate with sample logs
+1. **Log Emitter**
+   - Create a simple log generator in a Docker container
+   - Support OpenTelemetry log format
+   - Add basic configuration options
+   - Enable sending logs to the router
 
-2. **Component Interface Design**
-   - Define interfaces between major components
-   - Establish API contracts
-   - Document data formats
-   - Create sequence diagrams for key operations
-
-3. **Proof of Concept Planning**
-   - Define scope of initial proof of concept
-   - Identify minimum viable functionality
-   - Select test datasets
-   - Establish success criteria
+2. **Log Router**
+   - Build a high-performance Rust-based router
+   - Implement HTTP endpoints for receiving logs
+   - Add S3 storage integration
+   - Use zero-copy processing for efficiency
 
 ### Short-Term Goals
 
